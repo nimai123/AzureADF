@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "Practicetest12"
+		},
+		"nimaistorageaccount_connectionString": {
+			"value": ""
 		}
 	}
 }

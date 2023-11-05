@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "Practicetest12"
 		},
+		"nimaistorageaccount_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'nimaistorageaccount'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"nimaistorageaccount_connectionString": {
+						"value": "[parameters('nimaistorageaccount_connectionString')]"
 					}
 				}
 			},
