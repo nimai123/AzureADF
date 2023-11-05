@@ -8,6 +8,9 @@
 		"nimaistorageaccount_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
