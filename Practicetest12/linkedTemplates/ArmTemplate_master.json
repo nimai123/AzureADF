@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "Practicetest12"
 		},
-		"nimaistorageaccount_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'nimaistorageaccount'"
-		},
 		"AzureSqlDatabase_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase'"
+		},
+		"nimaistorageaccount_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'nimaistorageaccount'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +42,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"nimaistorageaccount_connectionString": {
-						"value": "[parameters('nimaistorageaccount_connectionString')]"
-					},
 					"AzureSqlDatabase_connectionString": {
 						"value": "[parameters('AzureSqlDatabase_connectionString')]"
+					},
+					"nimaistorageaccount_connectionString": {
+						"value": "[parameters('nimaistorageaccount_connectionString')]"
 					}
 				}
 			},

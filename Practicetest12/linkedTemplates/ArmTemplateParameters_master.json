@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "Practicetest12"
 		},
-		"nimaistorageaccount_connectionString": {
+		"AzureSqlDatabase_connectionString": {
 			"value": ""
 		},
-		"AzureSqlDatabase_connectionString": {
+		"nimaistorageaccount_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
